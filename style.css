@@ -193,6 +193,22 @@ footer { background: #16110c; margin-top: 80px; padding: 60px 0 54px; }
   pointer-events: none;
 }
 
+/* ---------- publishing page ---------- */
+.icon-badge {
+  width: 56px; height: 56px; border-radius: 16px;
+  background: var(--ember-soft);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 18px;
+}
+.icon-badge svg { display: block; }
+.step-num {
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--ember); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 19px; font-weight: 700; letter-spacing: -0.01em;
+  margin-bottom: 18px;
+}
+
 /* ---------- responsive ---------- */
 @media (max-width: 760px) {
   .grid-3, .grid-2 { grid-template-columns: 1fr; }
